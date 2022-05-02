@@ -1,0 +1,5 @@
+---
+- name: "Installing  nginx webserver"
+  yum:
+    name: nginx
+    state: present
